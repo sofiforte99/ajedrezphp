@@ -1,0 +1,67 @@
+@keyframes h3animation {
+    from {background-color: rgba(255, 0, 0, 0.788);}
+    to {background-color: black;}
+  }
+
+  
+body{
+    background-image: url("https://www.sciencenews.org/wp-content/uploads/2002/10/102602_new_main_red_leaves_free.jpg");
+	box-shadow: 0px 2px 15px black;
+    background-size: cover;
+    background-color: black;
+    padding: 12px 0;
+
+
+}
+
+h3{
+  margin: auto;
+  width:500px ;
+  height: 100px;
+  background-color:  rgba(255, 0, 0, 0.788);
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  animation-name: h3animation;
+  animation-duration: 4s;
+  position: relative;
+  text-align: center;
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 10px 10px 168px 33px rgba(0,0,0,0.92);
+-webkit-box-shadow: 10px 10px 168px 33px rgba(0,0,0,0.92);
+-moz-box-shadow: 10px 10px 168px 33px rgba(0,0,0,0.92);
+}
+
+table{
+    margin: auto;
+    margin-top: 50px;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+button {
+   margin-left: 500px;
+   position: relative;
+   margin-top: 50px;
+}
+
+table{
+    background-color: #ddd;
+    width: 400px;
+
+    overflow: hidden;
+    -webkit-transition: max-height 1s cubic-bezier(0, 1.05, 0, 1);
+    -moz-transition: max-height 1s cubic-bezier(0, 1.05, 0, 1);
+    transition: max-height 1s ease cubic-bezier(0, 1.05, 0, 1);
+
+    max-height: 38px;
+}
+
+table:hover{
+    -webkit-transition: max-height 1s ease;
+    -moz-transition: max-height 1s ease;
+    transition: max-height 1s ease;
+
+    max-height: 400px;
+}
